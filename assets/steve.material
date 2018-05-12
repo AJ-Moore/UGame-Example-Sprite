@@ -1,0 +1,10 @@
+#texture
+texture=assets/steve_alive.png
+
+#atlas 
+tex_x=6
+tex_y=1
+
+#shaders 
+frag_shader=assets/default.frag
+vert_shader=assets/default.vert

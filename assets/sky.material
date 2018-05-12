@@ -1,0 +1,17 @@
+# UTEXTURE_2D, UTEXTURE_ARRAY_2D, UCUBE_MAP
+tex_type=UCUBE_MAP
+
+texture=assets/skybox/right.png
+texture=assets/skybox/left.png
+texture=assets/skybox/top.png
+texture=assets/skybox/bottom.png
+texture=assets/skybox/back.png
+texture=assets/skybox/front.png
+
+#atlas
+tex_x=1
+tex_y=1
+
+#shaders 
+frag_shader=assets/defaultsky.frag
+vert_shader=assets/defaultsky.vert
