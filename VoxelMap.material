@@ -1,0 +1,16 @@
+# UTEXTURE_2D, UTEXTURE_ARRAY_2D, UCUBE_MAP
+tex_type=UTEXTURE_ARRAY_2D
+
+# UP TO MAX GL_MAX_ARRAY_TEXTURE_LAYERS
+texture=assets/Upsilon128x128.png
+texture=assets/Upsilon128x128.png
+texture=assets/Upsilon128x128.png
+texture=assets/Upsilon128x128.png
+
+#atlas 
+tex_x=1
+tex_y=1
+
+#shaders 
+frag_shader=assets/default.frag
+vert_shader=assets/default.vert

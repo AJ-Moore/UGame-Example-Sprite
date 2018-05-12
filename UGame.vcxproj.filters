@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{c22a6bd7-df92-4892-a8ba-faf140c303e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\materials">
+      <UniqueIdentifier>{91c3a6fa-67d8-4382-b904-ed50a10de9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{fa9ce889-d860-44bf-a990-f5732cf45061}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.cfg">
+      <Filter>Source Files\config</Filter>
+    </None>
+    <None Include="assets\box.material">
+      <Filter>Source Files\materials</Filter>
+    </None>
+    <None Include="assets\particle.material">
+      <Filter>Source Files\materials</Filter>
+    </None>
+    <None Include="assets\sky.material">
+      <Filter>Source Files\materials</Filter>
+    </None>
+    <None Include="assets\upsilon.material">
+      <Filter>Source Files\materials</Filter>
+    </None>
+    <None Include="assets\box.frag">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\box.vert">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\default.frag">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\default.vert">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\defaultsky.frag">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\defaultsky.vert">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\particle.vert">
+      <Filter>Source Files\shaders</Filter>
+    </None>
+    <None Include="assets\terrain.material">
+      <Filter>Source Files\materials</Filter>
+    </None>
+    <None Include="assets\steve.material" />
+    <None Include="C:\Users\Allan\OneDrive\Documents\Visual Studio 2015\Projects\CTR2Project1\CTR2Project1\CTR2Project1.rsf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\grass.png">
+      <Filter>Source Files\materials</Filter>
+    </Image>
+    <Image Include="assets\stonetile.png">
+      <Filter>Source Files\materials</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
